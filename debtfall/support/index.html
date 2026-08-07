@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Debtfall — Support</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    max-width: 640px; margin: 0 auto; padding: 48px 24px; line-height: 1.6;
+    background: #0e0d12; color: #f2f2f4;
+  }
+  @media (prefers-color-scheme: light) {
+    body { background: #ffffff; color: #1c1c1e; }
+    .card { background: #f5f5f7 !important; }
+  }
+  h1 { font-size: 2rem; margin-bottom: 0.25rem; }
+  .flame { font-size: 3rem; }
+  .card { background: #1c1b22; border-radius: 16px; padding: 20px 24px; margin: 24px 0; }
+  a { color: #30d158; }
+  footer { margin-top: 48px; font-size: 0.85rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div class="flame">📉</div>
+  <h1>Debtfall Support</h1>
+
+  <div class="card">
+    Questions, bugs, or ideas? Email
+    <a href="mailto:asger.amraxov@gmail.com">asger.amraxov@gmail.com</a>
+    — replies usually within a day or two.
+  </div>
+
+  <h2>Common questions</h2>
+
+  <h3>Snowball or avalanche — which should I pick?</h3>
+  <p>Snowball pays the smallest balance first — quick wins keep you
+  motivated. Avalanche pays the highest interest rate first — mathematically
+  cheapest. Both are shown in the app; switch any time and the plan
+  recalculates instantly.</p>
+
+  <h3>Why does it say "At this rate the balance grows"?</h3>
+  <p>That debt's payment is smaller than its monthly interest, so the balance
+  never shrinks. The warning shows the minimum payment that would start
+  paying it down — raise the payment and the warning clears.</p>
+
+  <h3>The numbers don't exactly match my bank statement</h3>
+  <p>Debtfall assumes monthly compounding, while many lenders accrue interest
+  daily, so projections can differ from your statement by a small amount.
+  They are estimates for planning, not financial advice.</p>
+
+  <h3>I logged a payment but the widget hasn't updated</h3>
+  <p>Widgets refresh on their own schedule. Opening the app updates them
+  immediately; otherwise they refresh within a few minutes and always at
+  month boundaries.</p>
+
+  <h3>Why doesn't my lock-screen widget show balances?</h3>
+  <p>By design — lock-screen surfaces are visible to anyone glancing at your
+  phone, so widgets show progress and dates only. You can enable amounts in
+  Settings if you prefer.</p>
+
+  <h3>Where is my data stored?</h3>
+  <p>Only on your device. No account, no cloud, no bank connections — see the
+  <a href="/debtfall/privacy/">privacy policy</a>. Note this also means
+  deleting the app deletes your debts and payment history.</p>
+
+  <h3>How do I restore Debtfall Pro on a new phone?</h3>
+  <p>Settings&nbsp;→&nbsp;Restore Purchases, signed in with the same Apple
+  Account you purchased with.</p>
+
+  <footer>Debtfall · Made with 📉</footer>
+</body>
+</html>
